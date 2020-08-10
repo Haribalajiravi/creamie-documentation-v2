@@ -11,6 +11,10 @@ module.exports = {
     gtag: {
       trackingID: 'UA-162464001-2',
     },
+    // algolia: {
+    //   apiKey: '25626fae796133dc1e734c6bcaaeac3c',
+    //   indexName: 'docsearch'
+    // },
     navbar: {
       title: 'Creamie',
       logo: {
@@ -41,11 +45,7 @@ module.exports = {
             {
               label: 'Style Guide',
               to: 'docs/',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
-            },
+            }
           ],
         },
         {
