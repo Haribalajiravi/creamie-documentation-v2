@@ -35,3 +35,7 @@
 .my-button {
   background-color: aliceblue;
 }
+
+.navbar__title {
+  font-family: 'Lobster', cursive, sans-serif;
+}

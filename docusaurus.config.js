@@ -4,7 +4,7 @@ module.exports = {
   url: 'https://creamie.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
-  favicon: 'img/creamie.png',
+  favicon: 'img/creamie-ico.png',
   organizationName: 'haribalajiravi', // Usually your GitHub org/user name.
   projectName: 'creamie-documentation-v2',
   themeConfig: {
@@ -43,7 +43,7 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
+              label: 'Command Line Interface (CLI)',
               to: 'docs/',
             }
           ],
@@ -88,13 +88,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/Haribalajiravi/creamie-documentation-v2/edit/master/website/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/Haribalajiravi/creamie-documentation-v2/edit/master/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

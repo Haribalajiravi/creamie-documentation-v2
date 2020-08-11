@@ -4,6 +4,11 @@ title: Install CLI
 sidebar_label: Install CLI
 ---
 
+## Introduction
+Creamie is entirely based on pure javascript methodology. It's scalable in nature and have very transparent javascript workflows. There is no abstraction in workflows so that you can reinvent custom workflow on top of this framework. Since, the whole framework core built under web components. All the features were wrapped under `Creamie` class which extends web component strategies.
+
+Creamie increases your development's reusability, testability and reliability. Since it's based on web components, we can make use of shadow DOM where event bubbling triggers only under components, write individual style for components and don't need to worry about naming conflicts in DOM.
+
 ## Prerequisite
 - Install [Node.js](https://nodejs.org/en/)
 
