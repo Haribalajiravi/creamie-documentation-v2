@@ -11,10 +11,10 @@ module.exports = {
     gtag: {
       trackingID: 'UA-162464001-2',
     },
-    // algolia: {
-    //   apiKey: '25626fae796133dc1e734c6bcaaeac3c',
-    //   indexName: 'docsearch'
-    // },
+    algolia: {
+      apiKey: 'cda340a7db9f49ba339afa4743bbf077',
+      indexName: 'creamie_io'
+    },
     navbar: {
       title: 'Creamie',
       logo: {
