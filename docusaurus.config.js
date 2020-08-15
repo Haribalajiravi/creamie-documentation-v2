@@ -52,6 +52,10 @@ module.exports = {
           title: 'Community',
           items: [
             {
+              label: 'Discord',
+              href: 'https://creamie.io/docs/contribution#joining-discord-channels-development-purpose-only',
+            },
+            {
               label: 'Gitter',
               href: 'https://gitter.im/creamie-cli/community?utm_source=share-link&utm_medium=link&utm_campaign=share-link',
             },
@@ -84,11 +88,11 @@ module.exports = {
       {
         docs: {
           // It is recommended to set document id as docs home page (`docs/` path).
-          homePageId: 'installation',
+          homePageId: 'introduction',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/Haribalajiravi/creamie-documentation-v2/edit/master/website/',
+            'https://github.com/Haribalajiravi/creamie-documentation-v2/edit/master/',
         },
         blog: {
           showReadingTime: true,
