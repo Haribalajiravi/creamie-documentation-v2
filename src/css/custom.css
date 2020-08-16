@@ -39,3 +39,7 @@
 .navbar__title {
   font-family: 'Lobster', cursive, sans-serif;
 }
+
+.hero--primary {
+  background-image: linear-gradient(#7b3300, #a0522d);
+}

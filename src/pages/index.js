@@ -155,7 +155,7 @@ function Home() {
   const { siteConfig = {} } = context;
   return (
     <Layout
-      title={`Welcome to ${siteConfig.title}`}
+      title={`Welcome to documentation`}
       description="A Javascript Framework with Web Component Life Cycles, Bindings, Directives, Routing and Events">
       <header className={clsx('hero hero--primary', styles.heroBanner)} style={{ height: '380px' }}>
         <div className="container">
