@@ -4,7 +4,7 @@ title: Events
 sidebar_label: Events
 ---
 
-Initiating multiple event checkpoints on a single event handler with different variants of events can be achieved. To use this, just make some checkpoints specifying `e` as element attribute followed by <Event>:<ActionCheckPointHandler>.
+Initiating multiple event checkpoints on a single event handler with different variants of events can be achieved. To use this, just make some checkpoints specifying `e` as element attribute followed by {Event}:{ActionCheckPointHandler}.
 
 In the below snippet, the event is associated with the `click` function of the button. We can also, stop event bubbling on nested events just by using `e.stopPropagation()` inside action handler.
 
