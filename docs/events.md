@@ -4,9 +4,9 @@ title: Events
 sidebar_label: Events
 ---
 
-Events are custom functions that can be called whenever the user performs an action. Consider the following example. The event `e` is configured to send an alert saying "Execute method fired!"
+Initiating multiple event checkpoints on a single event handler with different variants of events can be achieved. To use this, just make some checkpoints specifying `e` as element attribute followed by <Event>:<ActionCheckPointHandler>.
 
-And in the HTML, the event is associated with the `click` function of the button. So whenever the button is clicked, an alert "Execute method fired!" will be sent.
+In the below snippet, the event is associated with the `click` function of the button. We can also, stop event bubbling on nested events just by using `e.stopPropagation()` inside action handler.
 
 Example:
 
@@ -21,9 +21,12 @@ class App extends Creamie {
     constructor() {
         super(AppConfig);
         this.events.init({
-            execute: function (e) {
-                console.log(this, e);
-                alert('Execute method fired!');
+            execute: function (target, e) {
+                console.log(target, e, 'Execute method fired!');
+            },
+            getSwitch: (target) => {
+                // Result will be On/Off
+                console.log(target.value);
             }
         });
     }
@@ -51,6 +54,10 @@ index.html:
 </head>
 <body>
     <button e="click:execute"></button>
+    <select e="change:getSwitch">
+        <option value="On">1</option>
+        <option value="Off">0</option>
+    </select>
 </body>
 </html>
 ```
