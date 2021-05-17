@@ -78,7 +78,7 @@ const development = [
     ),
   },
   {
-    title: <>Prodcution run on <a href="https://pm2.keymetrics.io/" target="_blank">PM2</a></>,
+    title: <>Production run on <a href="https://pm2.keymetrics.io/" target="_blank">PM2</a></>,
     colNum: '6',
     description: (
       <>

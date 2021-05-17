@@ -91,13 +91,14 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} Haribalaji Ravi. Built with Docusaurus.`,
     },
   },
+  themes: ["@docusaurus/theme-live-codeblock"],
   presets: [
     [
       "@docusaurus/preset-classic",
       {
         docs: {
           // It is recommended to set document id as docs home page (`docs/` path).
-          homePageId: "introduction",
+          // homePageId: "introduction",
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:

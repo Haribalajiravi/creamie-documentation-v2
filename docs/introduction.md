@@ -2,6 +2,7 @@
 id: introduction
 title: Creamie
 sidebar_label: Creamie
+slug: /
 ---
 
 It is entirely based on pure javascript methodology. It's scalable in nature and have very transparent javascript workflows. There is no abstraction in workflows so that you can reinvent custom workflow on top of this framework. Since, the whole framework core built under web components. All the features were wrapped under `Creamie` class which extends web component strategies.

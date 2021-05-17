@@ -8,7 +8,7 @@ Ensure you've run the following commands before deploying the project.
 
 ## Rebuild `package.json`
 
-```sh
+```bash
 cd <PROJECT_NAME>
 npm init
 ```
@@ -17,7 +17,7 @@ npm init
 
 ## Install packages
 
-```sh
+```bash
 npm install
 ```
 
@@ -25,19 +25,19 @@ Run this command to install your project's dependant packages.
 
 ## Deploy project
 
-```sh
+```bash
 npm run development
 ```
 
 Run this command to deploy your project in a development environment. You can watch your project in action at [http://localhost:8080](http://localhost:8080)
 
-```sh
+```bash
 npm run build
 ```
 
 Run this command to generate production files in `dist/` folder. This step is essential before the project can be deployed in production.
 
-```sh
+```bash
 npm start
 ```
 

@@ -5,6 +5,7 @@ sidebar_label: Install CLI
 ---
 
 ## Prerequisite
+
 - Install [Node.js](https://nodejs.org/en/)
 
 :::note
@@ -36,4 +37,5 @@ npm ERR!   syscall: 'access',
 npm ERR!   path: '/usr/local/lib/node_modules'
 npm ERR! }
 ```
+
 Try this [link](https://gist.github.com/isaacs/579814) to install [nodejs](https://nodejs.org/en/) in proper way.

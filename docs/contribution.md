@@ -13,24 +13,27 @@ Creamie using [github](https://github.com/) for source code management. Make sur
 Once it done, [Fork](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) the below repository and create your brach from master.
 
 ### [@creamie/core](https://github.com/Haribalajiravi/creamie)
-```
-$ git clone https://github.com/Haribalajiravi/creamie.git
-$ cd creamie
-$ git fork
+
+```bash
+git clone https://github.com/Haribalajiravi/creamie.git
+cd creamie
+git fork
 ```
 
 ### [@creamie/cli](https://github.com/Haribalajiravi/creamie-cli)
-```
-$ git clone https://github.com/Haribalajiravi/creamie-cli.git
-$ cd creamie
-$ git fork
+
+```bash
+git clone https://github.com/Haribalajiravi/creamie-cli.git
+cd creamie
+git fork
 ```
 
 ### [@creamie/watcher](https://github.com/Haribalajiravi/creamie-watcher)
-```
-$ git clone https://github.com/Haribalajiravi/creamie-watcher.git
-$ cd creamie
-$ git fork
+
+```bash
+git clone https://github.com/Haribalajiravi/creamie-watcher.git
+cd creamie
+git fork
 ```
 
 ## Working on code
@@ -46,6 +49,7 @@ If you are not a VS code eslint/prettier extension fan. Just use `npm run lint` 
 New feature or issues make sure you have write testcase that should meet all your workflow conditions.
 
 Test frameworks:
+
 - [testcafe](https://devexpress.github.io/testcafe/) for [@creamie/core](https://github.com/Haribalajiravi/creamie)
 - [mocha](https://mochajs.org/) for [@creamie/cli](https://github.com/Haribalajiravi/creamie-cli) and [@creamie/watcher](https://github.com/Haribalajiravi/creamie-watcher)
 
@@ -58,14 +62,15 @@ After push into the code base. Github webhooks will pass a request to run all th
 A set of rules on commiting message style which will make you a good contributor.
 
 Commit message will be structured as below:
-```
+
+```bash
 <type>[optional scope]: <message>
 ```
 
 Type: chore, docs, feat, fix, refactor, style, or test.
 Message: use lowercase always
 
-```
+```bash
 feat: (new feature for the user, not a new feature for build script)
 fix: (bug fix for the user, not a fix to a build script)
 docs: (changes to the documentation)
@@ -76,9 +81,11 @@ chore: (updating grunt tasks etc; no production code change)
 ```
 
 Example:
-```
+
+```bash
 feat: passing payload on router transition
 ```
+
 Go through [Conventional commits](https://www.conventionalcommits.org/en/v1.0.0/#summary) for a detail summary.
 
 ## Setting up local npm package
@@ -89,13 +96,15 @@ This operation will be takes place while you are including a new change on packa
 
 ### How can we sync local package to our test application ?
 
-Goto the package folder hit below command. Below command will create a local package into your machine. 
-```
+Goto the package folder hit below command. Below command will create a local package into your machine.
+
+```bash
 npm link
 ```
 
 Now you should include your local package to your test project.
-```
+
+```bash
 npm link @creamie/core
 ```
 

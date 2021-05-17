@@ -12,7 +12,7 @@ Example:
 
 Setup 'if' attribute with new binder scope property in `*-component.html`
 
-```html
+```html {3} title="./src/app/app-component.html
 <div>
   <div>Title - Good old title</div>
   <div if="showDescription">Show this description</div>
@@ -23,7 +23,7 @@ Setup 'if' attribute with new binder scope property in `*-component.html`
 
 Just set `true`/`false` to binder scope property in your `*-component.js`
 
-```javascript
+```javascript {10,13} title="./src/app/app-component.js
 import Creamie from "@creamie/core";
 import AppConfig from "./app-config.js";
 
@@ -45,7 +45,7 @@ class App extends Creamie {
 window.customElements.define(AppConfig.tag, App);
 ```
 
-## How to display list of data to DOM?  
+## How to display list of data to DOM?
 
 `loop` directive will render Array of objects to the DOM automatically once you assign, add, remove or modify array on binder scope with array property.
 
@@ -53,7 +53,7 @@ Example:
 
 Setup `loop` attribute with new binder scope property and set `el` attributes with scopes to its child HTMLElement whichever you need in `*-component.html`
 
-```html
+```html {4-9}
 <div>
   <div>My Items</div>
   <div>
@@ -73,7 +73,7 @@ Setup `loop` attribute with new binder scope property and set `el` attributes wi
 
 > Note: Before using array methods on binder scope assign with empty/array of object to initiate functionality.
 
-```javascript
+```javascript {8-35} title="./src/app/app-component.js
 import Creamie from "@creamie/core";
 import AppConfig from "./app-config.js";
 

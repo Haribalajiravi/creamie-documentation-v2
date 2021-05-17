@@ -6,7 +6,7 @@ sidebar_label: Create Project
 
 [Install the Creamie CLI](https://creamie.now.sh/docs/installation) and use the following command to automatically create all the folders and files required for your project.
 
-```sh
+```bash
 creamie create <PROJECT_NAME>
 ```
 
@@ -14,7 +14,7 @@ creamie create <PROJECT_NAME>
 
 The auto-generated project's folder structure will resemble this:
 
-```sh
+```bash
 <PROJECT_NAME>
 ├── ecosystem.config.js
 ├── package.json

@@ -12,6 +12,6 @@ Source code: [github.com/Haribalajiravi/creamie-checklist-example](https://githu
 
 ## Don't forget to check our [documentation](https://creamie.now.sh/docs/installation)!
 
-If anyone have queries regarding creamie app development ping us in [community](https://gitter.im/creamie-cli/community?utm_source=share-link&utm_medium=link&utm_campaign=share-link) 
+If anyone have queries regarding creamie app development ping us in [community](https://gitter.im/creamie-cli/community?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
 
 Cheers!

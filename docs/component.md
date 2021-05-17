@@ -5,6 +5,7 @@ sidebar_label: Create web component in the CLI
 ---
 
 Web components allow you to create reusable custom HTML elements by combining HTML, CSS, and JS code. A web component consists of five different files:
+
 1. A HTML file
 2. A CSS file
 3. A JS file
@@ -21,9 +22,9 @@ creamie component <COMPONENT_NAME>
 
 Running this command will create a folder named `<COMPONENT_NAME>` containing the appropriate files in the `src/` folder.
 
-### Example
+### Example 1
 
-```sh
+```bash
 creamie component home
 
 # console output
@@ -45,7 +46,7 @@ creamie component <COMPONENT_NAME> -r
 
 Running this command will replace an existing component with a brand new one. All changes made to the five files present inside the `<COMPONENT_NAME>` folder will be reset.
 
-### Example
+## Example 2
 
 ```sh
 creamie component home -r
