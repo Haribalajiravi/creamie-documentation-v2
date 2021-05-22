@@ -139,7 +139,7 @@ const SupportMe = () => {
         <h1>Like it? take a second to support me!</h1>
         <div>
           <a href="https://www.patreon.com/haribalajiravi" target="_blank">
-            <img src="https://img.shields.io/badge/%20-Become%20a%20patreon%3F-%23555555?logo=patreon&style=for-the-badge" />
+            <img alt="creamie patreon" src="https://img.shields.io/badge/%20-Become%20a%20patreon%3F-%23555555?logo=patreon&style=for-the-badge" />
           </a>
           <a href="https://www.buymeacoffee.com/7xcFqmn" target="_blank">
             <img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" style={{ width: '122px', marginLeft: '10px' }} />
@@ -155,11 +155,11 @@ function Home() {
   const { siteConfig = {} } = context;
   return (
     <Layout
-      title={`Welcome to documentation`}
-      description="A Javascript Framework with Web Component Life Cycles, Bindings, Directives, Routing and Events">
+      title={`Plain javascript framework`}
+      description="A Plain Javascript Framework with Web Component Life Cycles, DOM Bindings, Directives, Routing and Events">
       <header className={clsx('hero hero--primary', styles.heroBanner)} style={{ height: '380px' }}>
         <div className="container">
-          <img src={`img/creamie.png`} alt="Creamie Logo" style={{ width: '100px' }} />
+          <img src={`img/creamie.png`} alt="creamie logo" style={{ width: '100px' }} />
           <h1 className="hero__title header-title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttons}>

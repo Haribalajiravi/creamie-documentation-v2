@@ -10,9 +10,9 @@ sidebar_label: Directives
 
 Example:
 
-Setup 'if' attribute with new binder scope property in `*-component.html`
+Setup 'if' attribute with new binder scope property.
 
-```html {3} title="./src/app/app-component.html
+```html {3} title="./src/app/app-component.html"
 <div>
   <div>Title - Good old title</div>
   <div if="showDescription">Show this description</div>
@@ -21,9 +21,9 @@ Setup 'if' attribute with new binder scope property in `*-component.html`
 </div>
 ```
 
-Just set `true`/`false` to binder scope property in your `*-component.js`
+Just set `true`/`false` to binder scope property.
 
-```javascript {10,13} title="./src/app/app-component.js
+```javascript {10,13} title="./src/app/app-component.js"
 import Creamie from "@creamie/core";
 import AppConfig from "./app-config.js";
 
@@ -73,7 +73,7 @@ Setup `loop` attribute with new binder scope property and set `el` attributes wi
 
 > Note: Before using array methods on binder scope assign with empty/array of object to initiate functionality.
 
-```javascript {8-35} title="./src/app/app-component.js
+```javascript {8-35} title="./src/app/app-component.js"
 import Creamie from "@creamie/core";
 import AppConfig from "./app-config.js";
 

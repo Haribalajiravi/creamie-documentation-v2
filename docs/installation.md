@@ -38,4 +38,4 @@ npm ERR!   path: '/usr/local/lib/node_modules'
 npm ERR! }
 ```
 
-Try this [link](https://gist.github.com/isaacs/579814) to install [nodejs](https://nodejs.org/en/) in proper way.
+Try this [link](https://gist.github.com/isaacs/579814) to install [nodejs](https://nodejs.org/en/) in the proper way.

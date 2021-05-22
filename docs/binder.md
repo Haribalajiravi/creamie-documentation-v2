@@ -6,13 +6,13 @@ sidebar_label: Binder
 
 ## Basic Binder Usage
 
-Binder syncs the data between a HTMLElement and an Object.
+Binder syncs the data between an HTMLElement and an Object.
 
 Example:
 
 Enter the following code in `app-component.html`:
 
-```html {1-2} title="./src/app/app-component.html
+```html {1-2} title="./src/app/app-component.html"
 <input type="text" data="name" placeholder="Type anything" />
 <div data="name">Previous data!</div>
 <button id="change">Change</button>
@@ -20,7 +20,7 @@ Enter the following code in `app-component.html`:
 
 Now enter this in `app-component.js`:
 
-```javascript {9} title="./src/app/app-component.js
+```javascript {9} title="./src/app/app-component.js"
 import Creamie from "@creamie/core";
 import AppConfig from "./appConfig.js";
 
@@ -49,12 +49,12 @@ Binder Plugin allows you to write your own custom plugins.
 
 > Before creating your own plugin, read below workflow of binder to have a perfect understanding of how it works.
 
-### Basic workflow of binder
+### The Basic workflow of binder
 
-Binder have basically getter and setter method.
+Binder has basically getter and setter method.
 
-- Getter method always used to listen for user input in any form of HTMLElement and push those data to a respective object.
-- Setter method always used to set the data of object towards any HTMLElement. If a value set to a object key, those value will reflect to the HTMLElement.
+- Getter method is always used to listen for user input in any form of HTMLElement and push those data to a respective object.
+- Setter method is always used to set the data of object towards any HTMLElement. If a value is set to an object key, those values will reflect the HTMLElement.
 
 ### How to write custom binder plugins?
 
@@ -62,7 +62,7 @@ You can write getter and setter methods in '< component >-config.js'.
 
 Getter and Setter example:
 
-```javascript {21-37,45-54,62-72} title="./src/app/app-config.js
+```javascript {21-37,45-54,62-72} title="./src/app/app-config.js"
 export default {
   template: `example-component.html`,
   style: `example-component.css`,
@@ -140,7 +140,7 @@ export default {
 
 ### Binder priorities
 
-There is a priority of executing all plugins. Plugin which matches at first will executes and the rest won't.
+There is a priority to executing all plugins. Plugin which matches at first will executes and the rest won't.
 
 For example,
 
