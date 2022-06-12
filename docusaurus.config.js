@@ -7,13 +7,13 @@ module.exports = {
   favicon: "img/creamie-ico.png",
   organizationName: "haribalajiravi", // Usually your GitHub org/user name.
   projectName: "creamie-documentation-v2",
-  scripts: [
-    {
-      async: true,
-      src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
-      "data-ad-client": "ca-pub-7858740679271778",
-    },
-  ],
+  // scripts: [
+  //   {
+  //     async: true,
+  //     src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+  //     "data-ad-client": "ca-pub-7858740679271778",
+  //   },
+  // ],
   themeConfig: {
     gtag: {
       trackingID: "UA-162464001-2",
